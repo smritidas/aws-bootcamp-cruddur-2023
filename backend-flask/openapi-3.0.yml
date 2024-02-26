@@ -11,6 +11,7 @@ paths:
       description: 'Return a feed of activity based on all users'
       tags:
         - activities
+      parameters: []
       responses:
         '200':
           description: Returns an array of activities"
