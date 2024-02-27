@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta, timezone
-class NotificationActivities:
+class NotificationsActivities:
   def run():
     now = datetime.now(timezone.utc).astimezone()
     results = [{
@@ -21,6 +21,6 @@ class NotificationActivities:
         'reposts_count': 0,
         'created_at': (now - timedelta(days=2)).isoformat()
       }],
-    },
+    }
     ]
     return results
